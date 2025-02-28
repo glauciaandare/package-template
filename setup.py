@@ -7,14 +7,13 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
+    name="image-processing-package",
     version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    author="Gláucia",
+    description="Image processing package using Skimage",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="https://github.com/glauciaandare/package-template.git"
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
